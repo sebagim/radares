@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "dataVersion": 2,
-  "updatedAt": "2026-07-04T22:35:40Z",
+  "updatedAt": "2026-07-18T21:00:00Z",
   "country": "UY",
-  "radarCount": 156,
+  "radarCount": 155,
   "downloadUrl": "https://sebagim.github.io/radares/radars/uy/radars-v2.json",
-  "sha256": "4d3d4d39cc2dead07b72feb25690817abc424e2013067c935dc5c69468bd85bc",
-  "fileSizeBytes": 451639
+  "sha256": "7bd05e6b74db0c5b60fb8aa884c1380a4b3cb0d24d8d14054df0f1934312d01d",
+  "fileSizeBytes": 444026
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "dataVersion": 2,
   "country": "UY",
-  "updatedAt": "2026-07-04T22:35:27Z",
+  "updatedAt": "2026-07-18T21:00:00Z",
   "radars": [
     {
       "id": "alertaradar-1",
@@ -13,7 +13,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 60,
       "defaultAudioWarningKmh": 60,
       "location": {
@@ -145,8 +145,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-10",
@@ -177,7 +176,7 @@
           "points": [
             {
               "legacyIdr": 2,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.876088,
               "longitude": -56.044886,
               "maxSpeedKmh": 75,
@@ -221,7 +220,7 @@
           "points": [
             {
               "legacyIdr": 5,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.87625,
               "longitude": -56.047069,
               "maxSpeedKmh": 75,
@@ -256,8 +255,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-11",
@@ -268,7 +266,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 60,
       "defaultAudioWarningKmh": 60,
       "location": {
@@ -323,8 +321,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-12",
@@ -412,8 +409,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-15",
@@ -424,7 +420,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -534,8 +530,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-17",
@@ -546,7 +541,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 60,
       "defaultAudioWarningKmh": 60,
       "location": {
@@ -612,19 +607,18 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-18",
       "legacyId": 18,
       "file": "radar18",
-      "name": "Av.Italia y Fco. de Caldas",
+      "name": "Av.Italia y Caldas",
       "departamento": "Montevideo",
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 60,
       "defaultAudioWarningKmh": 60,
       "location": {
@@ -690,8 +684,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-19",
@@ -702,7 +695,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 60,
       "defaultAudioWarningKmh": 60,
       "location": {
@@ -812,8 +805,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-20",
@@ -824,7 +816,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -923,8 +915,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-25",
@@ -1100,8 +1091,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-28",
@@ -1211,8 +1201,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-29",
@@ -1344,8 +1333,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-30",
@@ -1356,7 +1344,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 60,
       "defaultAudioWarningKmh": 60,
       "location": {
@@ -1444,8 +1432,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-216",
@@ -1533,8 +1520,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-217",
@@ -1644,8 +1630,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-227",
@@ -1722,8 +1707,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-228",
@@ -1811,8 +1795,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-229",
@@ -1900,8 +1883,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-230",
@@ -2055,8 +2037,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-231",
@@ -2067,7 +2048,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 60,
       "defaultAudioWarningKmh": 60,
       "location": {
@@ -2166,8 +2147,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-232",
@@ -2277,8 +2257,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-233",
@@ -2289,7 +2268,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 60,
       "defaultAudioWarningKmh": 60,
       "location": {
@@ -2388,8 +2367,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-234",
@@ -2400,7 +2378,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -2521,8 +2499,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-235",
@@ -2533,7 +2510,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 60,
       "defaultAudioWarningKmh": 60,
       "location": {
@@ -2687,8 +2664,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-237",
@@ -2820,8 +2796,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-238",
@@ -2832,7 +2807,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -2920,8 +2895,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-239",
@@ -2932,7 +2906,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -3031,8 +3005,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-240",
@@ -3043,7 +3016,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -3164,8 +3137,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-243",
@@ -3275,8 +3247,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-244",
@@ -3364,8 +3335,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-245",
@@ -3497,8 +3467,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-246",
@@ -3630,8 +3599,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-255",
@@ -3708,8 +3676,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-258",
@@ -3720,7 +3687,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -3764,8 +3731,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-259",
@@ -3820,8 +3786,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-268",
@@ -3942,8 +3907,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-269",
@@ -3954,7 +3918,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -4031,8 +3995,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-326",
@@ -4142,8 +4105,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-327",
@@ -4253,8 +4215,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-328",
@@ -4364,8 +4325,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-345",
@@ -4431,8 +4391,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-346",
@@ -4531,8 +4490,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-347",
@@ -4642,8 +4600,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-348",
@@ -4753,8 +4710,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-349",
@@ -4785,7 +4741,7 @@
           "points": [
             {
               "legacyIdr": 2,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.832742,
               "longitude": -55.950829,
               "maxSpeedKmh": 60,
@@ -4829,7 +4785,7 @@
           "points": [
             {
               "legacyIdr": 5,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.831745,
               "longitude": -55.949006,
               "maxSpeedKmh": 60,
@@ -4864,8 +4820,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-350",
@@ -4953,8 +4908,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-351",
@@ -5009,8 +4963,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-352",
@@ -5098,8 +5051,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-353",
@@ -5209,8 +5161,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-354",
@@ -5298,8 +5249,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-355",
@@ -5420,8 +5370,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-361",
@@ -5531,8 +5480,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-362",
@@ -5642,8 +5590,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-363",
@@ -5764,8 +5711,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-364",
@@ -5864,8 +5810,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-365",
@@ -5975,8 +5920,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-370",
@@ -6097,8 +6041,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-371",
@@ -6109,7 +6052,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 60,
       "defaultAudioWarningKmh": 60,
       "location": {
@@ -6129,7 +6072,7 @@
           "points": [
             {
               "legacyIdr": 2,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.8414,
               "longitude": -56.196671,
               "maxSpeedKmh": 60,
@@ -6173,7 +6116,7 @@
           "points": [
             {
               "legacyIdr": 5,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.840277,
               "longitude": -56.198417,
               "maxSpeedKmh": 60,
@@ -6208,8 +6151,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-372",
@@ -6240,7 +6182,7 @@
           "points": [
             {
               "legacyIdr": 2,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.908012,
               "longitude": -56.163518,
               "maxSpeedKmh": 45,
@@ -6284,7 +6226,7 @@
           "points": [
             {
               "legacyIdr": 5,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.906191,
               "longitude": -56.163717,
               "maxSpeedKmh": 45,
@@ -6319,8 +6261,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-373",
@@ -6351,7 +6292,7 @@
           "points": [
             {
               "legacyIdr": 2,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.889247,
               "longitude": -56.165554,
               "maxSpeedKmh": 45,
@@ -6395,7 +6336,7 @@
           "points": [
             {
               "legacyIdr": 5,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.887548,
               "longitude": -56.165753,
               "maxSpeedKmh": 45,
@@ -6430,8 +6371,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-374",
@@ -6462,7 +6402,7 @@
           "points": [
             {
               "legacyIdr": 2,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.861938,
               "longitude": -56.148738,
               "maxSpeedKmh": 60,
@@ -6506,7 +6446,7 @@
           "points": [
             {
               "legacyIdr": 5,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.860802,
               "longitude": -56.146989,
               "maxSpeedKmh": 60,
@@ -6541,8 +6481,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-375",
@@ -6573,7 +6512,7 @@
           "points": [
             {
               "legacyIdr": 2,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.845977,
               "longitude": -56.272693,
               "maxSpeedKmh": 45,
@@ -6617,7 +6556,7 @@
           "points": [
             {
               "legacyIdr": 5,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.84427,
               "longitude": -56.273241,
               "maxSpeedKmh": 45,
@@ -6652,8 +6591,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-376",
@@ -6684,7 +6622,7 @@
           "points": [
             {
               "legacyIdr": 2,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.862786,
               "longitude": -56.123004,
               "maxSpeedKmh": 45,
@@ -6717,7 +6655,7 @@
           "points": [
             {
               "legacyIdr": 5,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.864316,
               "longitude": -56.121969,
               "maxSpeedKmh": 45,
@@ -6741,8 +6679,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-377",
@@ -6874,8 +6811,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-380",
@@ -6985,8 +6921,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-381",
@@ -7096,8 +7031,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-382",
@@ -7207,8 +7141,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-383",
@@ -7274,8 +7207,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-384",
@@ -7341,8 +7273,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-385",
@@ -7353,7 +7284,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -7397,8 +7328,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-386",
@@ -7486,8 +7416,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-387",
@@ -7575,8 +7504,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-388",
@@ -7631,8 +7559,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-389",
@@ -7676,8 +7603,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-390",
@@ -7721,8 +7647,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-391",
@@ -7733,7 +7658,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -7766,8 +7691,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-392",
@@ -7811,8 +7735,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-393",
@@ -7823,7 +7746,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -7856,8 +7779,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-394",
@@ -7868,7 +7790,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -7901,8 +7823,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-395",
@@ -7946,8 +7867,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-396",
@@ -7958,7 +7878,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -7991,8 +7911,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-397",
@@ -8036,8 +7955,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-398",
@@ -8048,7 +7966,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -8081,8 +7999,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-399",
@@ -8093,7 +8010,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -8126,8 +8043,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-400",
@@ -8138,7 +8054,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -8171,8 +8087,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-401",
@@ -8216,8 +8131,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-402",
@@ -8261,8 +8175,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-403",
@@ -8273,7 +8186,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -8306,8 +8219,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-404",
@@ -8395,8 +8307,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-405",
@@ -8484,8 +8395,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-406",
@@ -8573,8 +8483,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-407",
@@ -8585,7 +8494,7 @@
       "zona": "",
       "source": "alertaradar",
       "sourceDate": "07/06/2026",
-      "type": "speed_traffic_light",
+      "type": "traffic_light_speed",
       "maxSpeedKmh": 45,
       "defaultAudioWarningKmh": 45,
       "location": {
@@ -8662,8 +8571,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-408",
@@ -8751,8 +8659,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-409",
@@ -8840,8 +8747,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-411",
@@ -8929,8 +8835,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-412",
@@ -9018,8 +8923,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-413",
@@ -9140,8 +9044,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-414",
@@ -9262,8 +9165,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-415",
@@ -9329,8 +9231,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-416",
@@ -9396,8 +9297,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-417",
@@ -9518,8 +9418,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-418",
@@ -9629,8 +9528,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-419",
@@ -9740,8 +9638,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-420",
@@ -9807,8 +9704,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-421",
@@ -9874,8 +9770,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-422",
@@ -9985,8 +9880,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-423",
@@ -10096,8 +9990,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-424",
@@ -10207,8 +10100,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-425",
@@ -10318,8 +10210,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-426",
@@ -10429,8 +10320,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-427",
@@ -10540,8 +10430,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-428",
@@ -10651,8 +10540,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-429",
@@ -10762,8 +10650,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-430",
@@ -10873,8 +10760,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-431",
@@ -10984,8 +10870,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-432",
@@ -11095,8 +10980,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-433",
@@ -11184,8 +11068,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-434",
@@ -11295,8 +11178,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-435",
@@ -11417,8 +11299,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-436",
@@ -11506,8 +11387,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-437",
@@ -11595,8 +11475,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-438",
@@ -11684,8 +11563,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-439",
@@ -11773,8 +11651,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-440",
@@ -11862,8 +11739,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-441",
@@ -11951,8 +11827,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-443",
@@ -12062,8 +11937,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-444",
@@ -12173,8 +12047,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-446",
@@ -12284,8 +12157,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-457",
@@ -12395,8 +12267,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-458",
@@ -12517,8 +12388,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-459",
@@ -12639,8 +12509,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-460",
@@ -12761,8 +12630,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-461",
@@ -12817,8 +12685,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-462",
@@ -12928,8 +12795,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-464",
@@ -13039,8 +12905,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-465",
@@ -13150,8 +13015,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-466",
@@ -13261,8 +13125,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-467",
@@ -13372,8 +13235,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-468",
@@ -13428,8 +13290,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-469",
@@ -13484,8 +13345,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-470",
@@ -13540,8 +13400,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-471",
@@ -13629,8 +13488,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-472",
@@ -13740,8 +13598,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-473",
@@ -13840,8 +13697,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-474",
@@ -13951,8 +13807,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-475",
@@ -14062,8 +13917,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-476",
@@ -14173,8 +14027,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-477",
@@ -14262,8 +14115,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-478",
@@ -14362,8 +14214,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-479",
@@ -14429,8 +14280,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-480",
@@ -14461,7 +14311,7 @@
           "points": [
             {
               "legacyIdr": 2,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.766165,
               "longitude": -55.760008,
               "maxSpeedKmh": 60,
@@ -14472,7 +14322,7 @@
             },
             {
               "legacyIdr": 3,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.766335,
               "longitude": -55.761087,
               "maxSpeedKmh": 60,
@@ -14483,7 +14333,7 @@
             },
             {
               "legacyIdr": 4,
-              "sentido": "ACERCANDOSE",
+              "sentido": null,
               "latitude": -34.766492,
               "longitude": -55.762174,
               "maxSpeedKmh": 60,
@@ -14496,8 +14346,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-482",
@@ -14585,8 +14434,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-483",
@@ -14674,8 +14522,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-484",
@@ -14763,8 +14610,7 @@
         }
       ],
       "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
+      "ignored": false
     },
     {
       "id": "alertaradar-485",
@@ -14851,118 +14697,6 @@
           ]
         }
       ],
-      "enabled": true,
-      "ignored": false,
-      "sentido": "AMBOS"
-    },
-    {
-      "id": "alertaradar-486",
-      "legacyId": 486,
-      "file": "radar486",
-      "name": "Radar de prueba",
-      "departamento": "Montevideo",
-      "zona": "Malvín",
-      "source": "alertaradar",
-      "sourceDate": "04/07/2026",
-      "type": "speed",
-      "maxSpeedKmh": 60,
-      "defaultAudioWarningKmh": 60,
-      "location": {
-        "latitude": -34.8860189,
-        "longitude": -56.1052895
-      },
-      "radarPointSense": "AMBOS",
-      "approachRoutes": [
-        {
-          "routeId": "alertaradar-486-route-1",
-          "sentido": "ACERCANDOSE",
-          "warningPoint": {
-            "latitude": -34.886811,
-            "longitude": -56.1095917,
-            "distanceToRadarMeters": 402
-          },
-          "points": [
-            {
-              "legacyIdr": 2,
-              "sentido": "ACERCANDOSE",
-              "latitude": -34.886107,
-              "longitude": -56.1063838,
-              "maxSpeedKmh": 60,
-              "defaultAudioWarningKmh": 60,
-              "distancePointMeters": 50,
-              "legacyType": "fijo",
-              "distanceToRadarMeters": 100
-            },
-            {
-              "legacyIdr": 3,
-              "sentido": "ACERCANDOSE",
-              "latitude": -34.8863446,
-              "longitude": -56.107446,
-              "maxSpeedKmh": 60,
-              "defaultAudioWarningKmh": 60,
-              "distancePointMeters": 50,
-              "legacyType": "fijo",
-              "distanceToRadarMeters": 200
-            },
-            {
-              "legacyIdr": 4,
-              "sentido": "ACERCANDOSE",
-              "latitude": -34.8865734,
-              "longitude": -56.1085188,
-              "maxSpeedKmh": 60,
-              "defaultAudioWarningKmh": 60,
-              "distancePointMeters": 50,
-              "legacyType": "fijo",
-              "distanceToRadarMeters": 301
-            },
-            {
-              "legacyIdr": 5,
-              "sentido": "ACERCANDOSE",
-              "latitude": -34.886811,
-              "longitude": -56.1095917,
-              "maxSpeedKmh": 60,
-              "defaultAudioWarningKmh": 60,
-              "distancePointMeters": 50,
-              "legacyType": "fijo",
-              "distanceToRadarMeters": 402
-            }
-          ]
-        },
-        {
-          "routeId": "alertaradar-486-route-2",
-          "sentido": "ACERCANDOSE",
-          "warningPoint": {
-            "latitude": -34.8858869,
-            "longitude": -56.103133,
-            "distanceToRadarMeters": 197
-          },
-          "points": [
-            {
-              "legacyIdr": 6,
-              "sentido": "ACERCANDOSE",
-              "latitude": -34.8859485,
-              "longitude": -56.1042273,
-              "maxSpeedKmh": 60,
-              "defaultAudioWarningKmh": 60,
-              "distancePointMeters": 50,
-              "legacyType": "fijo",
-              "distanceToRadarMeters": 97
-            },
-            {
-              "legacyIdr": 7,
-              "sentido": "ACERCANDOSE",
-              "latitude": -34.8858869,
-              "longitude": -56.103133,
-              "maxSpeedKmh": 60,
-              "defaultAudioWarningKmh": 60,
-              "distancePointMeters": 50,
-              "legacyType": "fijo",
-              "distanceToRadarMeters": 197
-            }
-          ]
-        }
-      ],
-      "sentido": "AMBOS",
       "enabled": true,
       "ignored": false
     }
