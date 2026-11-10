@@ -629,59 +629,37 @@
       "approachRoutes": [
         {
           "routeId": "alertaradar-18-route-1",
-          "sentido": "ACERCANDOSE",
+          "sentido": "AMBOS",
           "warningPoint": {
-            "latitude": -34.88712,
-            "longitude": -56.112164,
-            "distanceToRadarMeters": 207
+            "latitude": -34.887218,
+            "longitude": -56.114244,
+            "distanceToRadarMeters": 0
           },
           "points": [
             {
               "legacyIdr": 2,
               "sentido": "ACERCANDOSE",
-              "latitude": -34.887155,
-              "longitude": -56.113408,
+              "latitude": -34.887186,
+              "longitude": -56.113154,
               "maxSpeedKmh": 60,
               "defaultAudioWarningKmh": 60,
               "distancePointMeters": 50,
               "legacyType": "fijo",
-              "distanceToRadarMeters": 94
+              "distanceToRadarMeters": 100
             },
             {
               "legacyIdr": 3,
               "sentido": "ACERCANDOSE",
-              "latitude": -34.88712,
-              "longitude": -56.112164,
+              "latitude": -34.887132,
+              "longitude": -56.112069,
               "maxSpeedKmh": 60,
               "defaultAudioWarningKmh": 60,
               "distancePointMeters": 50,
               "legacyType": "fijo",
-              "distanceToRadarMeters": 207
+              "distanceToRadarMeters": 200
             }
           ]
         },
-        {
-          "routeId": "alertaradar-18-route-2",
-          "sentido": "ALEJANDOSE",
-          "warningPoint": {
-            "latitude": -34.887129,
-            "longitude": -56.115275,
-            "distanceToRadarMeters": 76
-          },
-          "points": [
-            {
-              "legacyIdr": 11,
-              "sentido": "ALEJANDOSE",
-              "latitude": -34.887129,
-              "longitude": -56.115275,
-              "maxSpeedKmh": 60,
-              "defaultAudioWarningKmh": 60,
-              "distancePointMeters": 25,
-              "legacyType": "fijo",
-              "distanceToRadarMeters": 76
-            }
-          ]
-        }
       ],
       "enabled": true,
       "ignored": false
