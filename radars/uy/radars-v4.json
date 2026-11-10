@@ -622,18 +622,18 @@
       "maxSpeedKmh": 60,
       "defaultAudioWarningKmh": 60,
       "location": {
-        "latitude": -34.887164,
-        "longitude": -56.114438
+        "latitude": -34.887218,
+        "longitude": -56.114244
       },
-      "radarPointSense": null,
+      "radarPointSense": "AMBOS",
       "approachRoutes": [
         {
           "routeId": "alertaradar-18-route-1",
-          "sentido": "AMBOS",
+          "sentido": "ACERCANDOSE",
           "warningPoint": {
-            "latitude": -34.887218,
-            "longitude": -56.114244,
-            "distanceToRadarMeters": 0
+            "latitude": -34.887132,
+            "longitude": -56.112069,
+            "distanceToRadarMeters": 199
           },
           "points": [
             {
@@ -656,10 +656,10 @@
               "defaultAudioWarningKmh": 60,
               "distancePointMeters": 50,
               "legacyType": "fijo",
-              "distanceToRadarMeters": 200
+              "distanceToRadarMeters": 199
             }
           ]
-        },
+        }
       ],
       "enabled": true,
       "ignored": false
